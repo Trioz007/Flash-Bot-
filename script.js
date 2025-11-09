@@ -10,7 +10,7 @@ let isResponseGenerating = false;
 let chatHistory = [];
 
 // API configuration for Gemini 2.0 Flash
-const API_KEY = "AIzaSyDVgD0qt1dHSiIM6koFSK1-xwYU5rpHQ1E";
+const API_KEY = "PASTE YOUR API KEY";
 const BASE_URL = `https://generativelanguage.googleapis.com/v1`;
 
 // Use Gemini 2.0 Flash model - latest and fastest model
@@ -372,4 +372,5 @@ document.addEventListener('DOMContentLoaded', async function() {
 
 // Export functions for global access
 window.copyMessage = copyMessage;
+
 window.clearChatHistory = clearChatHistory;
